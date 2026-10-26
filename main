@@ -1,0 +1,13 @@
+import random
+playing = True
+halloer = str(random.randint(0,9))
+print("uMbEr i WiLl GeNeRatE FrOm 1 To 9 GrESs Or Go!!!!!!!!!!!!!!")
+print("GaMe EnDs WhEn yOu WiN")
+while playing:
+    Guss = input("GiVE Me a NuMbeR")
+    if halloer == Guss :
+        print("WiNeR")
+        print("NuMbEr Is",halloer)
+        break
+    else:
+        ("error YOU LoUs")
